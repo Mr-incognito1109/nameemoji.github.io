@@ -18,35 +18,48 @@
 </head>
 
 <body>
-    <h1>Wanna find out , about your emoji by you name ?</h1>
-    <section id="box">
+    
+    <h1>Wanna find out , about your emoji by your name ?</h1>
+
+    <div id="box">
 
         <div>
-            <label for="">ENTER YOUR NAME</label><br>
+            <h3>Enter Your Name</h3>
             <input type="text" name="" id="name"><br>
-
-
         </div>
         <div class="image">
             <img id="imagebolte" src="https://media.giphy.com/media/xUPGGDNsLvqsBOhuU0/giphy.gif" alt="" width="200px"
                 height="200px">
+                
 
         </div>
-        <button>Click Here!</button>
-    </section>
-    <section id="footer">
-        <div class="footer">
+        <button class="btn">Click Here!</button>
+    </div>
+    <div class="footer">
+        <div>
             <div id="social_container">
-                <i class="fab fa-instagram fa-3x"></i>
-                <i class="fab fa-facebook fa-3x"></i>
-                <i class="fab fa-twitter-square fa-3x"></i>
+                <a href="https://www.instagram.com/mr_incognito1109/" target="_blank"><i id="instagram" class="fab fa-instagram fa-3x"></i></a>
+                <a href="https://www.facebook.com/pratik.shukla.123829" target="_blank"><i id="facebook" class="fab fa-facebook fa-3x"></i></a>
+                <a href="https://twitter.com/Mrincognito1109" target="_blank"><i id="twitter" class="fab fa-twitter-square fa-3x"></i></a>
+                <a href="https://mr-incognito.tk" target="_blank"><i id="website" class="fas fa-user-secret fa-3x"></i></a>
 
             </div>
             <div id="footer-text">
-                <span>By Mr- incognito | No Copyrights © | Thanks for API joeschmoe</span>
+                <span>By <a href="https://mr-incognito.tk">Mr- incognito</a> | No Copyrights © | Thanks for API joeschmoe</span>
+                <p>Created just for fun only!!!</p>
             </div>
         </div>
-    </section>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js" integrity="sha512-Pa4Jto+LuCGBHy2/POQEbTh0reuoiEXQWXGn8S7aRlhcwpVkO8+4uoZVSOqUjdCsE+77oygfu2Tl+7qGHGIWsw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $(document).ready(function(){
+            $('.btn').click(function(){
+                const ab = $('#name').val();
+                alert(ab);
+                $('#imagebolte').attr('src',`https://joeschmoe.io/api/v1/${ab}`);
+            });
+        });
+    </script>
 
 </body>
 

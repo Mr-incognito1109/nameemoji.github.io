@@ -1,99 +1,99 @@
 body {
     font-family: 'Cinzel', serif;
     font-weight: bold;
-    background-color: #00EAD3;
-    
+    background-color: #00EAD3;  
+    text-align: center;
 }
 
+h1 {
+    text-align: center;
+    margin-top: 5%;
+
+}
 
 #box {
-    margin-top: 50px;
-    background-color: #FFF5B7;
-    width: 350px;
-    height: 350px;
+    
+    margin-top: 60px;
+    text-align: center;
+    width: 85%;
+    background-color: #fff5b7;
     border: solid 5px;
-    border-color: #FF449F;
-    align-items: center;
-
-
+    border-color: #ff449f;
+    margin-left: 7%;
 }
 
-label {
-    
-    
-    margin-left: 90px;
-
+h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
-
-#name {
-    height: 25px;
-    width: 150px;
+input {
     margin-top: 10px;
-    margin-left: 92px;
-
+    border-bottom-width: 3px;
 }
-
-
-
 #imagebolte {
-    margin-top: 10px;
-    margin-left: 73px;
-    margin-right: 74px;
+    margin-top: 30px;
+}
 
+.btn {
+    margin-top: 20px;
+    margin-bottom: 5px;
 
 }
 
-button {
-    width: 90px;
-    height: 40px;
-    margin-top:10px;
-    margin-left: 35%;
-    
-    
+.btn {
+    -webkit-border-radius: 11;
+    -moz-border-radius: 11;
+    border-radius: 11px;
+    font-family: Arial;
+    color: #030303;
+    font-size: 15px;
+    background: #00EAD3;
+    padding: 10px 16px 10px 16px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #FFF5B7;
+    background-image: -webkit-linear-gradient(top, #FFF5B7, #FF449F);
+    background-image: -moz-linear-gradient(top, #FFF5B7, #FF449F);
+    background-image: -ms-linear-gradient(top, #FFF5B7, #FF449F);
+    background-image: -o-linear-gradient(top, #FFF5B7, #FF449F);
+    background-image: linear-gradient(to bottom, #FFF5B7, #FF449F);
+    text-decoration: none;
+  }
 
-}
-#footer {
-
-}
-
-i {
-    padding: 10px;
+ .footer {
+     margin-top: 80px;
+    background-color: #402218;
+    padding-top: 1%;
+    padding-bottom: 1%;
     color: white;
+ }
+ 
+ i {
+     color: white;
+     padding: 15px;
+ }
+ a {
+     color: white;
+ }
+
+ a:hover {
+     color: #1DA1F2;
+ }
+
+#instagram:hover {
+    color:  #DD2A7B;
 }
 
-#socials_container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 375px;
-    height: 200px;
-   
+#facebook:hover {
+    color: #3b5998;
 }
 
-.footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #005F99;
-    width: 100%;
-    height: 150px;
-    margin-top: 5px;
+#twitter:hover {
+    color: #1DA1F2;
 }
 
-
-
-#footer-text {
-        display: flex;
-        color: white;
-        align-self: center;
-        align-items: center;
-        justify-content: center;
-        position: absolute;
-
-        margin-top: 100px;
-        font-size: 10px;
-    
-    
+#website:hover {
+    color: black;
 }
-
-
